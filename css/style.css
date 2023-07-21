@@ -1,0 +1,104 @@
+/* triad basecolors Adobe
+#1E4B73 - dark blue
+#1F74BF - light blue
+#732D29 - mahagon
+#6C7312 - dark olive green
+#B8BF52 - light olive green
+#EEAA3A - gold leaves from picture
+font families: font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; 
+
+*/
+:root {
+	--color1: #1e4b73;
+	--color2: #1f74bf;
+	--color3: #732d29;
+	--color4: #6c7312;
+	--color5: #b8bf52;
+	--color6: #eeaa3a;
+	font-family: "Raleway", sans-serif;
+	font-size: medium;
+}
+
+#intro {
+	background-color: var(--color1);
+	/* height: 80vh; */
+	/* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* #graph {
+    border-radius: 10px; 
+    width:60%; 
+    min-width: 150px ;
+} */
+
+h1 {
+	color: var(--color6);
+	font-size: 4rem;
+	font-family: "Playfair Display", serif;
+	font-weight: 800;
+	text-align: center;
+}
+
+/* Small devices (landscape phones, 450px and less) */
+@media (max-width: 450px) {
+	h1 {
+		text-align: left;
+		font-size: 3rem;
+	}
+}
+
+.grid3-2 {
+	/* height: 100vh; */
+	width: 100%;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item {
+	/* font-size: 5rem;
+				color: white;
+				font-family: Arial, Helvetica, sans-serif; */
+	/* background-color: blueviolet; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.selfie {
+	grid-area: 1 / 1 / 4 / 2;
+}
+.name {
+	grid-area: 1/2/2/3;
+}
+
+footer {
+	background-color: var(--color1);
+}
+
+img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	/* max-width: 250px; */
+	border-radius: 50%;
+}
+
+#summary {
+	background-color: var(--color5);
+}
