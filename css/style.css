@@ -20,6 +20,11 @@ font-family: 'Raleway', sans-serif;
 	font-size: medium;
 }
 
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: medium;
+}
+
 #intro {
 	background-color: var(--color1);
 	/* height: 80vh; */
@@ -53,6 +58,14 @@ h1 {
 	font-weight: 800;
 	text-align: center;
 }
+h2 {
+	font-weight: 600;
+	font-size: 2rem;
+}
+h3 {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
 
 /* Small devices (landscape phones, 450px and less) */
 @media (max-width: 450px) {
@@ -80,12 +93,12 @@ h1 {
 	align-items: center;
 	justify-content: center;
 }
-.selfie {
+/* .selfie {
 	grid-area: 1 / 1 / 4 / 2;
-}
-.name {
+} */
+/* .name {
 	grid-area: 1/2/2/3;
-}
+} */
 
 footer {
 	background-color: var(--color1);
@@ -101,4 +114,25 @@ img {
 
 #summary {
 	background-color: var(--color5);
+	color: var(--color1);
+}
+
+#summary-img {
+	max-width: 270px;
+}
+
+#nodeJS.inProgress {
+	/* You really read this? Well done!
+when learned:
+fill: #5fa04e;  */
+	fill: lightslategrey;
+	opacity: 0.5;
+}
+
+#reactJS.inProgress {
+	/* You really read this? Well done!
+when learned:
+    fill: #61dafb;  */
+	fill: lightslategrey;
+	opacity: 0.5;
 }
