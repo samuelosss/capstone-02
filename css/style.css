@@ -56,8 +56,8 @@ h1 {
 	font-size: 4rem;
 	font-family: "Playfair Display", serif;
 	font-weight: 800;
-	text-align: center;
 }
+
 h2 {
 	font-weight: 600;
 	font-size: 2rem;
@@ -70,29 +70,29 @@ h3 {
 /* Small devices (landscape phones, 450px and less) */
 @media (max-width: 450px) {
 	h1 {
-		text-align: left;
+		/* text-align: left; */
 		font-size: 3rem;
 	}
 }
 
-.grid3-2 {
-	/* height: 100vh; */
+/* .grid3-2 {
+	height: 100vh;
 	width: 100%;
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-}
+} */
 
-.item {
-	/* font-size: 5rem;
+/* .item {
+	font-size: 5rem;
 				color: white;
-				font-family: Arial, Helvetica, sans-serif; */
-	/* background-color: blueviolet; */
+				font-family: Arial, Helvetica, sans-serif;
+	background-color: blueviolet;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
+} */
 /* .selfie {
 	grid-area: 1 / 1 / 4 / 2;
 } */
@@ -102,14 +102,15 @@ h3 {
 
 footer {
 	background-color: var(--color1);
+	color: var(--color6);
 }
 
 img {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	/* max-width: 250px; */
-	border-radius: 50%;
+	/* max-width: 550px; */
+	/* border-radius: 50%; */
 }
 
 #summary {
@@ -119,6 +120,10 @@ img {
 
 #summary-img {
 	max-width: 270px;
+}
+
+img#face {
+	border-radius: 50%;
 }
 
 #nodeJS.inProgress {
@@ -131,8 +136,62 @@ fill: #5fa04e;  */
 
 #reactJS.inProgress {
 	/* You really read this? Well done!
-when learned:
-    fill: #61dafb;  */
+/* when learned: */
+	/* fill: #61dafb; opacity: 1.0; */
 	fill: lightslategrey;
 	opacity: 0.5;
+}
+
+#projects {
+	background-color: var(--color6);
+	color: var(--color3);
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: var(--color3);
+	color: var(--color6);
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+	width: 100%;
+	min-height: 13rem;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 14rem;
+}
+
+.card-body h3 {
+	min-height: 3.8rem;
+}
+
+.card-text {
+	min-height: 14rem;
+}
+
+a {
+	color: inherit;
+}
+a:visited {
+	color: inherit;
+}
+a:hover {
+	color: inherit;
+}
+a:active {
+	color: inherit;
 }
