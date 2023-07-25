@@ -39,12 +39,14 @@ h1 {
 }
 
 h2 {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 2rem;
+	font-family: "Playfair Display", serif;
 }
 h3 {
 	font-weight: 600;
 	font-size: 1.5rem;
+	font-family: "Playfair Display", serif;
 }
 
 /* Small devices (landscape phones, 450px and less) */
@@ -241,4 +243,14 @@ a:active {
 		min-height: auto;
 		margin-bottom: 0;
 	}
+}
+
+#resume {
+	background-color: var(--color5);
+	color: var(--color1);
+}
+
+.accordion-body {
+	background-color: var(--color1);
+	color: var(--color6);
 }
