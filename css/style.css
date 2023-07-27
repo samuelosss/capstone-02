@@ -71,6 +71,8 @@ h3 {
 	font-weight: 600;
 	font-size: 1.7rem;
 	font-family: "Playfair Display", serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 h4,
@@ -422,7 +424,7 @@ a:active {
 
 .accordionTitleOne {
 	flex: 0 0 32vw;
-	font-size: calc(1.1rem + ((1.4vw - 5px) * 1.5723));
+	font-size: calc(1.1rem + ((1.7vw - 5px) * 1.5723));
 	min-height: 0vw;
 }
 .accordionTitleTwo {
