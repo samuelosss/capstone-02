@@ -26,9 +26,10 @@ body {
 }
 
 /* Override Bootstrap setting */
+
 .offset-1 {
-	margin-left: 7%;
-	margin-right: 7%;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 .h1,
@@ -407,7 +408,7 @@ a:active {
 	padding: 1rem 1.25rem;
 	background-color: var(--color4);
 	color: var(--color6);
-	font-size: calc(0.75rem + ((1vw - 3px) * 0.6667));
+	font-size: calc(0.875rem + ((1vw - 3px) * 0.6667));
 	min-height: 0vw;
 }
 
@@ -418,8 +419,8 @@ a:active {
 } */
 
 .accordionTitleOne {
-	flex: 0 0 24vw;
-	font-size: calc(0.9375rem + ((1.4vw - 5px) * 1.5723));
+	flex: 0 0 32vw;
+	font-size: calc(1.1rem + ((1.4vw - 5px) * 1.5723));
 	min-height: 0vw;
 }
 .accordionTitleTwo {
