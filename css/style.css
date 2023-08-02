@@ -643,3 +643,25 @@ a:active {
 .carousel-dark .carousel-caption {
 	color: #000;
 }
+
+.foot-icon {
+	fill: currentColor;
+	/* vertical-align: -0.125em; */
+	width: 4vw;
+	max-width: 20px;
+	height: auto;
+	padding-top: 2vw;
+	margin-right: 2vw;
+}
+
+div.contact {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: left;
+}
+
+@media (min-width: 576px) {
+	.text-sm-center {
+		text-align: center;
+	}
+}
