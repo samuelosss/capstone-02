@@ -5,7 +5,8 @@
 #6C7312 - dark olive green, rgb(108, 115, 18)
 #B8BF52 - light olive green, rgb(184, 191, 82)
 #EEAA3A - gold leaves from picture, rgb(238, 170, 58)
-font families: font-family: 'Playfair Display', serif;
+font families: 
+font-family: 'Playfair Display', serif;
 font-family: 'Raleway', sans-serif; 
 
 */
@@ -187,7 +188,7 @@ fill: #5fa04e;  */
 	flex-direction: column;
 	/* justify-content: space-between; */
 	width: 100%;
-	min-height: 14rem;
+	min-height: 16rem;
 }
 
 /* .card-body h3 {
