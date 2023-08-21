@@ -722,3 +722,9 @@ img#pomocIn {
 	/* right: 50%; */
 	text-align: center;
 }
+
+@media screen and (min-width: 576px) {
+	#footer-right {
+		text-align: right;
+	}
+}
