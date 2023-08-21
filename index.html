@@ -261,7 +261,7 @@
 						<a href="" target="_blank"
 							><div class="card">
 								<img
-								id="pomocIn"
+									id="pomocIn"
 									src="./images/diy-img.jpeg"
 									class="card-img-top"
 									alt="thumbnail of fyzio-ichtys.cz website with a picture of clinic room"
@@ -284,17 +284,6 @@
 				</div>
 			</div>
 		</section>
-		<!-- Bootstrap JS needed for accordion funcionality -->
-		<!-- <script
-			src="./script/bootstrapCopy.js"
-			integrity=""
-			crossorigin="anonymous"
-		></script> -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-			crossorigin="anonymous"
-		></script>
 
 		<!-- Resume -->
 		<section id="resume" class="container-fluid p-4">
@@ -310,7 +299,10 @@
 			</div>
 
 			<div class="row justify-content offset-1">
-				<div class="accordion g-3" id="">
+				<!-- Accordion 1 start -->
+				<div class="accordion g-3" id="accordion1">
+					<!-- its a "parent" and id has to match ds-data-parent in collapsed, otherwise next button will not close previous!-->
+					<!-- Accordion items -->
 					<div class="accordion-item">
 						<div class="accordion-header">
 							<button
@@ -329,7 +321,7 @@
 						<div
 							id="collapseOne"
 							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							data-bs-parent="#accordion1"
 						>
 							<div class="accordion-body">
 								<p>
@@ -430,7 +422,7 @@
 						<div
 							id="collapseTwo"
 							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							data-bs-parent="#accordion1"
 						>
 							<div class="accordion-body">
 								<strong>So far the strongest path in my career</strong> <br />
@@ -495,7 +487,7 @@
 						<div
 							id="collapseThree"
 							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							data-bs-parent="#accordion1"
 						>
 							<div class="accordion-body">
 								<h5>IBM, Brno</h5>
@@ -527,7 +519,7 @@
 						<div
 							id="collapseSix"
 							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							data-bs-parent="#accordion1"
 						>
 							<div class="accordion-body">
 								<strong
@@ -561,6 +553,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- Accordion 1 end -->
 			</div>
 			<div class="row justify-content offset-1 mt-5">
 				<div class="col-10">
@@ -569,7 +562,8 @@
 			</div>
 
 			<div class="row justify-content offset-1">
-				<div class="accordion g-3" id="">
+				<!-- Accordion 2 -->
+				<div class="accordion g-3" id="accordion2">
 					<div class="accordion-item">
 						<div class="accordion-header">
 							<button
@@ -588,7 +582,7 @@
 						<div
 							id="collapseFour"
 							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							data-bs-parent="#accordion2"
 						>
 							<div class="accordion-body">
 								<strong>Evangelical Theology Seminary, Prague</strong
@@ -617,7 +611,7 @@
 						<div
 							id="collapseFive"
 							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							data-bs-parent="#accordion2"
 						>
 							<div class="accordion-body">
 								<strong>High School of Civil Engineering, Havirov</strong>
@@ -1120,5 +1114,26 @@
 				<div class="col-sm-3 text-sm-center">© 2023 Samuel Poloha</div>
 			</div>
 		</footer>
+		<!-- Bootstrap JS needed for accordion funcionality -->
+		<!-- <script
+			src="./script/bootstrapCopy.js"
+			integrity=""
+			crossorigin="anonymous"
+		></script> -->
+		<!-- <script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"
+		></script> -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+			integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
